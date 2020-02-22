@@ -4,6 +4,7 @@ result resb 3
 section .data
 factorial dq 8735373
 section .text
+; writes an ascii character from eax to stdoutz
 _dprint:
     pushad        
     add eax, '0' 
